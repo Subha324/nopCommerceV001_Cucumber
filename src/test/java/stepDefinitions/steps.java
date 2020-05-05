@@ -63,8 +63,6 @@ public class steps extends BaseClass {
 	@Then("close")
 	public void close() {
 		myDriver.close();
-		myDriver.quit();
-		myDriver = null;
 
 	}
 	
